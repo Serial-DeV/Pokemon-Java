@@ -1,0 +1,20 @@
+Questions traitées de 1 à 12 + ajouts supplémentaires.
+Remarque sur la question 11: Utilisation de Scanner (et pas de Reader) pour le déplacement.
+
+
+Ajouts supplémentaires:
+ 
+-Le joueur saisit son nom au début de la partie
+-Option permettant de quitter la partie, lorsque le joueur ne peut pas la gagner (dresseur entouré par des murs et donc inaccessible, dresseurs trop forts pour le joueur,...)
+-Affichage des défaites
+-Ajout d'une infirmerie
+-Les Pokemons des dresseurs adverses ont un niveau allant de 1 au niveau du dresseur
+-Ajout d'un système monétaire (Pokecoins): le joueur en possède au début 500. Chaque dresseur a un nombre aléatoire de Pokecoins, cependant son niveau influe sur la quantité de Pokecoins.
+-Ajout d'un magasin (signalé par un ?): Quand le joueur entre dans le magasin il a la possibilité de dépenser 950 Pokecoins. Un Pokemon est généré aléatoirement. Le joueur peut soit prendre le Pokemon, soit l'échanger contre l'un de ses Pokemons (si le joueur a déjà 10 Pokemons), ou bien ni le prendre ni l'échanger (pas de remboursement de Pokecoins).
+-Ajout de murs (ou plutot de montagnes) infranchissables. La probabilité d'avoir un mur dans une case est plus élevée si un mur se situe sur une case voisine (ce qui permet d'avoir un biome).
+
+
+Remarque importante: 
+
+Les classes TestJoueur,TestCombat2,TestCombat,CombatBS,Combat et TestMonde sont des classes de test contenant un main.
+TestMonde est celle à exécuter.
